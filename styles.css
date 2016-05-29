@@ -1,3 +1,11 @@
+/*
+Tested on OS X 10.11.4
+
+Chrome 50.0.2661.102
+Firefox 46.0.1
+Safari 9.1
+*/
+
 body {
   margin: 0;
   padding: 0;
@@ -43,6 +51,10 @@ header {
   header nav {
     padding-bottom: 50px;
     text-align: left;
+  }
+  header nav svg {
+    width: 16px;
+    height: 13px;
   }
   header nav ul li {
     display: inline-block;
